@@ -1,0 +1,175 @@
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, ul {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #1A1A1A;
+
+    font-family: Garamand, Times, serif;
+
+    font-weight: normal;
+    font-size: 100%;
+
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.site {
+
+    max-width: 112rem;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 13rem auto;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 4rem #ddd;
+}
+
+header {
+
+    margin: 0;
+    padding: 4rem 2rem 2rem;
+
+    text-align: center;
+    
+    background-color: #ffeaa7;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+section {
+
+    padding: 4rem 2rem 2rem;
+    margin: 0;
+
+    text-align:justify;
+    hyphens:auto;
+    -webkit-hyphens:auto;
+    -webkit-hyphenate-character:"\2010";
+    -webkit-hyphenate-limit-after:1;
+    -webkit-hyphenate-limit-before:2;
+    -moz-hyphens:auto;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+h1 {
+
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: normal !important;
+}
+
+h2 {
+
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p, li {
+
+    font-size: inherit;
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    margin: 0 0 1rem 0;
+}
+
+li {
+    
+    list-style: none;
+}
+
+header p {
+    font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.10rem;
+    line-height: 1.6rem;
+}
+
+a {
+    color: #1A1A1A;
+
+    cursor: pointer;
+
+    text-decoration: underline;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+@media screen and (min-width: 50rem) {
+    header {
+        padding: 4rem 4rem 4rem;
+    }
+
+    section {
+        padding: 4rem 4rem 4rem;
+    }
+}
+
+
+
+@media screen and (min-width: 70rem) {
+
+    div.site {
+
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    header {
+
+        text-align: right;
+
+        padding: 5rem 5rem 5rem;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    section {
+
+        padding: 6rem 5rem 5rem;
+
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    h1 {
+
+        font-size: 2.8rem;
+        line-height: 4rem;
+
+    }
+}
+
+@media screen and (min-width: 90rem) {
+
+    header {
+        padding: 6rem 6rem 6rem;
+    }
+
+    section {
+        padding: 7rem 6rem 6rem;
+    }
+}
