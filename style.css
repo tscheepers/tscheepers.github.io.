@@ -11,6 +11,7 @@ html {
     font-weight: normal;
     font-size: 100%;
 
+
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -20,6 +21,7 @@ html {
 div.site {
 
     max-width: 112rem;
+    min-height: 100vh;
     margin: 0 auto;
     
     display: grid;
@@ -36,8 +38,9 @@ header {
     padding: 4rem 2rem 2rem;
 
     text-align: center;
+    background-color: #FBF8F6;
     
-    background-color: #ffeaa7;
+    border: 1px #ddd solid;
 
     grid-row-start: 1;
     grid-row-end: 2;
