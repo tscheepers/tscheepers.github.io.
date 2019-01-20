@@ -35,10 +35,10 @@ div.site {
 header {
 
     margin: 0;
-    padding: 4rem 2rem 2rem;
+    padding: 5.5rem 2rem 2rem;
 
     text-align: center;
-    background-color: #FBF8F6;
+    background-color: #F0F0F0;
     
     border: 1px #ddd solid;
 
@@ -65,8 +65,8 @@ section {
 
 h1 {
 
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: normal !important;
@@ -118,7 +118,7 @@ a {
 
 @media screen and (min-width: 50rem) {
     header {
-        padding: 4rem 4rem 4rem;
+        padding: 5.5rem 2rem 2rem;
     }
 
     section {
