@@ -61,8 +61,13 @@ section, article {
     -moz-hyphens:auto;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;*/
+    font-style: normal;
+    font-weight: normal;
+}
 
+h1 {
     font-size: 2rem;
     line-height: 2.0rem;
     margin-top: 0;
@@ -70,17 +75,17 @@ h1 {
 }
 
 h2 {
-
     font-size: 1.5rem;
     line-height: 1.7rem;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /*font-family: Avenir, Helvetica, Roboto, Arial, sans-serif;*/
-    font-style: normal;
-    font-weight: normal;
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.9rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.2rem;
 }
 
 h1.name {
@@ -93,8 +98,9 @@ h2 {
     font-weight: bold;
 }
 
-article h1, article h2 {
+article h1, article h2, article h3 {
     text-align: left;
+    font-weight: bold;
 }
 
 p, li {
