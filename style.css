@@ -71,7 +71,7 @@ h1 {
     font-size: 2rem;
     line-height: 2.0rem;
     margin-top: 0;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0rem;
 }
 
 h2 {
@@ -129,17 +129,17 @@ a {
 
 
     div.site {
-        max-width: 58rem;
+        max-width: 51rem;
         margin: 3rem auto 6rem;
     }
 
     header {
-        padding: 6rem 6rem 0 6rem;
+        padding: 4rem 6rem 0 6rem;
         text-align: center;
     }
 
     section {
-        padding: 3rem 6rem 6rem;
+        padding: 3rem 6rem 4rem;
     }
 
     article {
